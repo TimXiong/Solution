@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="TimXiong.WPF.Sample.PutToWallControl.PutToWall"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TimXiong.WPF.Sample.PutToWallControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="550">
+    <UserControl.Resources>
+        <local:PutToWallModel x:Key="mv" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="110" />
+            <ColumnDefinition Width="110" />
+            <ColumnDefinition Width="110" />
+            <ColumnDefinition Width="110" />
+            <ColumnDefinition Width="110" />
+        </Grid.ColumnDefinitions>
+        <local:Answerkit x:Name="ak1" Grid.Column="0" DataContext="{Binding Source={StaticResource mv}, Path=Orders[0]}" />
+        <local:Answerkit x:Name="ak2" Grid.Column="1" DataContext="{Binding Source={StaticResource mv}, Path=Orders[1]}"/>
+        <local:Answerkit x:Name="ak3" Grid.Column="2" DataContext="{Binding Source={StaticResource mv}, Path=Orders[2]}"/>
+        <local:Answerkit x:Name="ak4" Grid.Column="3" DataContext="{Binding Source={StaticResource mv}, Path=Orders[3]}"/>
+    </Grid>
+</UserControl>

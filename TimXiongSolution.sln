@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimXiong.ScannerDriver", "TimXiong.ScannerDriver\TimXiong.ScannerDriver.csproj", "{5B706662-B86F-431B-913F-C97EA4E5F330}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimXiong.ScannerCheck", "TimXiong.ScannerCheck\TimXiong.ScannerCheck.csproj", "{396E48DA-A4C6-4353-8E5A-60CE06EBAE6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimXiong.Common", "TimXiong.Common\TimXiong.Common.csproj", "{BA232509-D5E6-488A-B19B-6BDFD2DB23FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimXiong.WPF.Sample.PutToWallControl", "TimXiong.WPF.Sample.UserControl\TimXiong.WPF.Sample.PutToWallControl.csproj", "{751E215E-139F-4B88-89E2-DBCC769021F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimXiong.Log.Sample", "TimXiong.Log.Sample\TimXiong.Log.Sample.csproj", "{B791BD37-A10A-4A5F-B73A-0A78D0E40A13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{BA232509-D5E6-488A-B19B-6BDFD2DB23FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA232509-D5E6-488A-B19B-6BDFD2DB23FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA232509-D5E6-488A-B19B-6BDFD2DB23FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751E215E-139F-4B88-89E2-DBCC769021F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751E215E-139F-4B88-89E2-DBCC769021F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751E215E-139F-4B88-89E2-DBCC769021F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751E215E-139F-4B88-89E2-DBCC769021F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B791BD37-A10A-4A5F-B73A-0A78D0E40A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B791BD37-A10A-4A5F-B73A-0A78D0E40A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B791BD37-A10A-4A5F-B73A-0A78D0E40A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B791BD37-A10A-4A5F-B73A-0A78D0E40A13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
